@@ -1,0 +1,691 @@
+{
+  "1": {
+    "company": {
+      "id": "c1",
+      "name": "TechCorp",
+      "founded_year": 2007,
+      "industry": "Platform",
+      "revenue": 240670711,
+      "departments": [
+        {
+          "name": "Engineering",
+          "budget": 4374216,
+          "employees": [
+            {
+              "name": "Bob Smith",
+              "role": "Engineer",
+              "salary": 90066,
+              "experience_years": 6
+            },
+            {
+              "name": "Grace Martinez",
+              "role": "Engineer",
+              "salary": 150864,
+              "experience_years": 13
+            },
+            {
+              "name": "Jack Davis",
+              "role": "Coordinator",
+              "salary": 115906,
+              "experience_years": 18
+            },
+            {
+              "name": "Alice Johnson",
+              "role": "Specialist",
+              "salary": 190763,
+              "experience_years": 9
+            },
+            {
+              "name": "Frank Johnson",
+              "role": "Analyst",
+              "salary": 163971,
+              "experience_years": 6
+            }
+          ],
+          "projects": [
+            {
+              "title": "Project Gamma",
+              "status": "completed",
+              "budget": 276171,
+              "team_size": 9
+            },
+            {
+              "title": "Solution Epsilon",
+              "status": "completed",
+              "budget": 90131,
+              "team_size": 26
+            },
+            {
+              "title": "System Epsilon",
+              "status": "ongoing",
+              "budget": 324019,
+              "team_size": 23
+            },
+            {
+              "title": "Engine Alpha",
+              "status": "ongoing",
+              "budget": 497115,
+              "team_size": 26
+            }
+          ]
+        },
+        {
+          "name": "Marketing",
+          "budget": 2679615,
+          "employees": [
+            {
+              "name": "Alice Brown",
+              "role": "Coordinator",
+              "salary": 70645,
+              "experience_years": 3
+            },
+            {
+              "name": "Henry Johnson",
+              "role": "Coordinator",
+              "salary": 82967,
+              "experience_years": 5
+            },
+            {
+              "name": "Henry Rodriguez",
+              "role": "Manager",
+              "salary": 119483,
+              "experience_years": 17
+            }
+          ],
+          "projects": [
+            {
+              "title": "Service Beta",
+              "status": "completed",
+              "budget": 383790,
+              "team_size": 22
+            },
+            {
+              "title": "Service Gamma",
+              "status": "on-hold",
+              "budget": 481656,
+              "team_size": 36
+            },
+            {
+              "title": "Engine Alpha",
+              "status": "completed",
+              "budget": 127806,
+              "team_size": 7
+            },
+            {
+              "title": "Framework Alpha",
+              "status": "completed",
+              "budget": 318512,
+              "team_size": 17
+            },
+            {
+              "title": "Project Alpha",
+              "status": "ongoing",
+              "budget": 130031,
+              "team_size": 7
+            }
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "city": "New York",
+          "country": "USA",
+          "office_size": "small",
+          "employees_count": 450
+        },
+        {
+          "city": "London",
+          "country": "UK",
+          "office_size": "medium",
+          "employees_count": 46
+        }
+      ]
+    }
+  },
+  "2": {
+    "company": {
+      "id": "c2",
+      "name": "SalesCo",
+      "founded_year": 2021,
+      "industry": "Platform",
+      "revenue": 579998028,
+      "departments": [
+        {
+          "name": "Sales",
+          "budget": 4656842,
+          "employees": [
+            {
+              "name": "Eve Martinez",
+              "role": "Specialist",
+              "salary": 188658,
+              "experience_years": 1
+            },
+            {
+              "name": "Iris Jones",
+              "role": "Specialist",
+              "salary": 77154,
+              "experience_years": 5
+            },
+            {
+              "name": "Eve Johnson",
+              "role": "Engineer",
+              "salary": 195024,
+              "experience_years": 5
+            },
+            {
+              "name": "Eve Jones",
+              "role": "Coordinator",
+              "salary": 105215,
+              "experience_years": 11
+            },
+            {
+              "name": "Diana Jones",
+              "role": "Coordinator",
+              "salary": 178065,
+              "experience_years": 9
+            },
+            {
+              "name": "Alice Johnson",
+              "role": "Specialist",
+              "salary": 161037,
+              "experience_years": 9
+            },
+            {
+              "name": "Alice Smith",
+              "role": "Analyst",
+              "salary": 84293,
+              "experience_years": 9
+            }
+          ],
+          "projects": [
+            {
+              "title": "Engine Epsilon",
+              "status": "on-hold",
+              "budget": 304076,
+              "team_size": 3
+            },
+            {
+              "title": "Initiative Alpha",
+              "status": "completed",
+              "budget": 296046,
+              "team_size": 5
+            }
+          ]
+        },
+        {
+          "name": "HR",
+          "budget": 3197208,
+          "employees": [
+            {
+              "name": "Iris Williams",
+              "role": "Lead",
+              "salary": 83409,
+              "experience_years": 2
+            },
+            {
+              "name": "Eve Garcia",
+              "role": "Engineer",
+              "salary": 143797,
+              "experience_years": 7
+            },
+            {
+              "name": "Diana Johnson",
+              "role": "Analyst",
+              "salary": 196770,
+              "experience_years": 14
+            },
+            {
+              "name": "Jack Williams",
+              "role": "Manager",
+              "salary": 92598,
+              "experience_years": 6
+            },
+            {
+              "name": "Grace Smith",
+              "role": "Manager",
+              "salary": 137080,
+              "experience_years": 14
+            },
+            {
+              "name": "Diana Jones",
+              "role": "Manager",
+              "salary": 78336,
+              "experience_years": 13
+            }
+          ],
+          "projects": [
+            {
+              "title": "Engine Beta",
+              "status": "completed",
+              "budget": 438126,
+              "team_size": 32
+            }
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "city": "Austin",
+          "country": "USA",
+          "office_size": "medium",
+          "employees_count": 166
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "office_size": "small",
+          "employees_count": 124
+        }
+      ]
+    }
+  },
+  "3": {
+    "company": {
+      "id": "c3",
+      "name": "FinanceHub",
+      "founded_year": 2015,
+      "industry": "Framework",
+      "revenue": 300147754,
+      "departments": [
+        {
+          "name": "Finance",
+          "budget": 4444944,
+          "employees": [
+            {
+              "name": "Alice Rodriguez",
+              "role": "Manager",
+              "salary": 81813,
+              "experience_years": 15
+            },
+            {
+              "name": "Charlie Davis",
+              "role": "Specialist",
+              "salary": 189233,
+              "experience_years": 18
+            },
+            {
+              "name": "Jack Garcia",
+              "role": "Lead",
+              "salary": 182324,
+              "experience_years": 14
+            },
+            {
+              "name": "Iris Davis",
+              "role": "Manager",
+              "salary": 174433,
+              "experience_years": 15
+            },
+            {
+              "name": "Eve Brown",
+              "role": "Specialist",
+              "salary": 122695,
+              "experience_years": 17
+            }
+          ],
+          "projects": [
+            {
+              "title": "Platform Gamma",
+              "status": "on-hold",
+              "budget": 50623,
+              "team_size": 48
+            },
+            {
+              "title": "Solution Beta",
+              "status": "planned",
+              "budget": 186080,
+              "team_size": 23
+            },
+            {
+              "title": "Initiative Beta",
+              "status": "completed",
+              "budget": 131247,
+              "team_size": 27
+            },
+            {
+              "title": "System Beta",
+              "status": "ongoing",
+              "budget": 227510,
+              "team_size": 29
+            }
+          ]
+        },
+        {
+          "name": "Operations",
+          "budget": 2875634,
+          "employees": [
+            {
+              "name": "Henry Miller",
+              "role": "Engineer",
+              "salary": 104220,
+              "experience_years": 14
+            },
+            {
+              "name": "Grace Martinez",
+              "role": "Specialist",
+              "salary": 55120,
+              "experience_years": 19
+            },
+            {
+              "name": "Grace Davis",
+              "role": "Engineer",
+              "salary": 142211,
+              "experience_years": 10
+            },
+            {
+              "name": "Grace Miller",
+              "role": "Coordinator",
+              "salary": 193165,
+              "experience_years": 20
+            },
+            {
+              "name": "Diana Davis",
+              "role": "Manager",
+              "salary": 121548,
+              "experience_years": 14
+            },
+            {
+              "name": "Henry Smith",
+              "role": "Lead",
+              "salary": 138114,
+              "experience_years": 13
+            }
+          ],
+          "projects": [
+            {
+              "title": "Engine Beta",
+              "status": "ongoing",
+              "budget": 485491,
+              "team_size": 28
+            },
+            {
+              "title": "Project Alpha",
+              "status": "on-hold",
+              "budget": 81145,
+              "team_size": 32
+            }
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "city": "Paris",
+          "country": "France",
+          "office_size": "small",
+          "employees_count": 35
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "office_size": "medium",
+          "employees_count": 204
+        },
+        {
+          "city": "Zurich",
+          "country": "Switzerland",
+          "office_size": "medium",
+          "employees_count": 118
+        }
+      ]
+    }
+  },
+  "4": {
+    "company": {
+      "id": "c4",
+      "name": "StartupX",
+      "founded_year": 2011,
+      "industry": "Service",
+      "revenue": 299775766,
+      "departments": [
+        {
+          "name": "Engineering",
+          "budget": 2471613,
+          "employees": [
+            {
+              "name": "Henry Johnson",
+              "role": "Specialist",
+              "salary": 111190,
+              "experience_years": 9
+            },
+            {
+              "name": "Jack Brown",
+              "role": "Lead",
+              "salary": 80087,
+              "experience_years": 18
+            },
+            {
+              "name": "Diana Williams",
+              "role": "Analyst",
+              "salary": 87286,
+              "experience_years": 3
+            },
+            {
+              "name": "Alice Williams",
+              "role": "Analyst",
+              "salary": 199214,
+              "experience_years": 10
+            },
+            {
+              "name": "Henry Johnson",
+              "role": "Lead",
+              "salary": 129715,
+              "experience_years": 13
+            },
+            {
+              "name": "Eve Rodriguez",
+              "role": "Coordinator",
+              "salary": 179445,
+              "experience_years": 15
+            },
+            {
+              "name": "Bob Martinez",
+              "role": "Engineer",
+              "salary": 163253,
+              "experience_years": 11
+            }
+          ],
+          "projects": [
+            {
+              "title": "Solution Alpha",
+              "status": "ongoing",
+              "budget": 130022,
+              "team_size": 46
+            },
+            {
+              "title": "Project Gamma",
+              "status": "ongoing",
+              "budget": 410088,
+              "team_size": 14
+            },
+            {
+              "title": "Engine Epsilon",
+              "status": "on-hold",
+              "budget": 490285,
+              "team_size": 20
+            },
+            {
+              "title": "System Epsilon",
+              "status": "on-hold",
+              "budget": 342810,
+              "team_size": 34
+            },
+            {
+              "title": "Initiative Delta",
+              "status": "planned",
+              "budget": 224092,
+              "team_size": 24
+            }
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "city": "San Francisco",
+          "country": "USA",
+          "office_size": "medium",
+          "employees_count": 353
+        }
+      ]
+    }
+  },
+  "5": {
+    "company": {
+      "id": "c5",
+      "name": "DataSystems",
+      "founded_year": 2016,
+      "industry": "Engine",
+      "revenue": 310471503,
+      "departments": [
+        {
+          "name": "Operations",
+          "budget": 3459236,
+          "employees": [
+            {
+              "name": "Iris Smith",
+              "role": "Lead",
+              "salary": 73084,
+              "experience_years": 11
+            },
+            {
+              "name": "Eve Garcia",
+              "role": "Engineer",
+              "salary": 155952,
+              "experience_years": 17
+            },
+            {
+              "name": "Alice Rodriguez",
+              "role": "Lead",
+              "salary": 158330,
+              "experience_years": 2
+            },
+            {
+              "name": "Diana Rodriguez",
+              "role": "Analyst",
+              "salary": 180676,
+              "experience_years": 15
+            },
+            {
+              "name": "Alice Brown",
+              "role": "Analyst",
+              "salary": 193974,
+              "experience_years": 5
+            },
+            {
+              "name": "Eve Davis",
+              "role": "Specialist",
+              "salary": 177064,
+              "experience_years": 4
+            },
+            {
+              "name": "Alice Martinez",
+              "role": "Manager",
+              "salary": 91517,
+              "experience_years": 10
+            },
+            {
+              "name": "Iris Smith",
+              "role": "Coordinator",
+              "salary": 156952,
+              "experience_years": 3
+            }
+          ],
+          "projects": [
+            {
+              "title": "Initiative Delta",
+              "status": "ongoing",
+              "budget": 349586,
+              "team_size": 12
+            },
+            {
+              "title": "Engine Gamma",
+              "status": "planned",
+              "budget": 227836,
+              "team_size": 33
+            }
+          ]
+        },
+        {
+          "name": "HR",
+          "budget": 2144563,
+          "employees": [
+            {
+              "name": "Iris Williams",
+              "role": "Lead",
+              "salary": 99967,
+              "experience_years": 20
+            },
+            {
+              "name": "Iris Williams",
+              "role": "Engineer",
+              "salary": 122416,
+              "experience_years": 14
+            },
+            {
+              "name": "Frank Rodriguez",
+              "role": "Analyst",
+              "salary": 50672,
+              "experience_years": 10
+            },
+            {
+              "name": "Eve Martinez",
+              "role": "Coordinator",
+              "salary": 178356,
+              "experience_years": 5
+            },
+            {
+              "name": "Henry Rodriguez",
+              "role": "Lead",
+              "salary": 140472,
+              "experience_years": 11
+            }
+          ],
+          "projects": [
+            {
+              "title": "Service Delta",
+              "status": "planned",
+              "budget": 465921,
+              "team_size": 15
+            },
+            {
+              "title": "Platform Epsilon",
+              "status": "on-hold",
+              "budget": 132453,
+              "team_size": 29
+            },
+            {
+              "title": "Project Gamma",
+              "status": "on-hold",
+              "budget": 379742,
+              "team_size": 27
+            },
+            {
+              "title": "Service Beta",
+              "status": "on-hold",
+              "budget": 29408,
+              "team_size": 11
+            },
+            {
+              "title": "Framework Alpha",
+              "status": "on-hold",
+              "budget": 62277,
+              "team_size": 36
+            }
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "city": "Sydney",
+          "country": "Australia",
+          "office_size": "large",
+          "employees_count": 83
+        },
+        {
+          "city": "Mumbai",
+          "country": "India",
+          "office_size": "small",
+          "employees_count": 250
+        }
+      ]
+    }
+  }
+}
