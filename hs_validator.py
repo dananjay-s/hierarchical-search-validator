@@ -134,14 +134,72 @@ def match_subtree(data_node: Node, query_node: QueryNode) -> bool:
         return True
     return any(match_subtree(child, query_node) for child in data_node.children)
 
-query_tree = QueryNode("departments", {
-    "name": "Marketing",
-    "employees": {"name": "Bob"}
-})
 
-for cid, obj in company_json.items():
-    data_tree = Node("company", obj["company"])
-    if match_subtree(data_tree, query_tree):
-        print(f"Company {obj['company']['name']} matches query.")
-    else:
-        print(f"Company {obj['company']['name']} does NOT match.")
+def process_query_twigs(query_dict: dict) -> List[List[str]]:
+    twig_results = []
+
+    for twig_key, twig_condition in query_dict.items():
+        matching_companies = set()
+        query_tree = QueryNode(twig_key, twig_condition)
+
+        for cid, obj in company_json.items():
+            data_tree = Node("company", obj["company"])
+            if match_subtree(data_tree, query_tree):
+                matching_companies.add(cid)
+
+        twig_results.append(matching_companies)
+        print(f"Twig '{twig_key}' matches: {matching_companies}")
+
+    return twig_results
+
+
+def intersect_results(twig_results: List[set]) -> set:
+    if not twig_results:
+        return set()
+
+    result = twig_results[0].copy()
+    for twig_set in twig_results[1:]:
+        result &= twig_set
+
+    return result
+
+multi_twig_query = {
+    "departments": {
+        "name": "Engineering",
+        "employees": {"name": "Bob","role": "Engineer"}
+    },
+    "locations": {
+        "city": "Athens",
+        "country": "UK"
+    }
+}
+
+print("=" * 60)
+print("Multi-Twig Query Execution")
+print("=" * 60)
+print(f"Query: {multi_twig_query}\n")
+
+
+twig_results = process_query_twigs(multi_twig_query)
+
+
+final_matches = intersect_results(twig_results)
+
+print(f"\nFinal intersection result: {final_matches}")
+print("\nDetailed Results:")
+print("-" * 60)
+
+for cid in final_matches:
+    obj = company_json[cid]
+    print(f"✓ Company ID: {obj['company']['id']} - Name: {obj['company']['name']} MATCHES all conditions")
+
+if not final_matches:
+    print("No companies match ALL query conditions.")
+
+
+non_matching = set(company_json.keys()) - final_matches
+if non_matching:
+    print("\nCompanies that do NOT match all conditions:")
+    for cid in non_matching:
+        obj = company_json[cid]
+        print(f"✗ Company ID: {obj['company']['id']} - Name: {obj['company']['name']}")
